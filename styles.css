@@ -15,12 +15,13 @@ h1 {
     text-align: center;
     color: #0079d3;
     margin-bottom: 1rem;
+    font-size: 2.1rem;
 }
 
 .welcome-banner {
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -29,20 +30,22 @@ h1 {
 
 .welcome-banner h2 {
     color: #0079d3;
+    font-size: 1.3rem;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
 
 .welcome-banner p {
     margin: 0;
-    color: #1a1a1b;
+    color: #6c6c6c;
     line-height: 1.4;
+    font-size: 0.8rem;
 }
 
 .create-post {
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 1rem;
     margin-bottom: 1rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -52,6 +55,7 @@ h1 {
     color: #0079d3;
     margin-top: 0;
     font-size: 1.2rem;
+    margin-bottom: 0.8rem;
 }
 
 input, textarea {
@@ -95,7 +99,7 @@ button:hover {
 .post {
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 0.8rem;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
