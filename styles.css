@@ -4,11 +4,26 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    max-width: 50rem;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #f2f6f9;
+    background-color: #f0f2f5;
     color: #1a1a1b;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 100vh;
+}
+
+.container-box {
+    max-width: 50rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    overflow: hidden;
 }
 
 h1 {
@@ -19,7 +34,7 @@ h1 {
 }
 
 .welcome-banner {
-    background-color: white;
+    background-color: #f2f6f9;
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 1rem;
@@ -30,7 +45,7 @@ h1 {
 
 .welcome-banner h2 {
     color: #0079d3;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
@@ -43,7 +58,7 @@ h1 {
 }
 
 .create-post {
-    background-color: white;
+    background-color: #f2f6f9;
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 1rem;
@@ -97,7 +112,7 @@ button:hover {
 }
 
 .post {
-    background-color: white;
+    background-color: #f2f6f9;
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 0.8rem;

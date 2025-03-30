@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
             titleInput.value = '';
             contentInput.value = '';
         } else {
-            alert('Please enter a title and content for your post');
+            alert('Please enter a title and content to create a new post');
         }
     });
 
